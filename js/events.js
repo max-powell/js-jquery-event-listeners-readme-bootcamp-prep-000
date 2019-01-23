@@ -15,9 +15,8 @@ function pressIt() {
     alert(key)
     //if (key === 71) {
       //alert("You have pressed the 'g' key")
-    }
-  })
-}
+    })
+  }
 
 function submitIt() {
   $('form').on('submit', function() {
