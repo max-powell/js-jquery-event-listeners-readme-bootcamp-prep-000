@@ -15,7 +15,7 @@ function pressIt() {
     if (key === 71) {
       alert("You have pressed the 'g' key")
     }
-  }
+  })
 }
 
 $(document).ready(function(){
