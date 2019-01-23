@@ -12,9 +12,9 @@ function frameIt() {
 
 function pressIt() {
   $(document).on('keydown', function(key) {
-    console.log(key.which, typeof key.which)
-    if (key.which == 71) {
-      console.log("You have pressed the 'g' key")
+    alrt(key.which)
+    //if (key.which == 71) {
+      //console.log("You have pressed the 'g' key")
     })
   }
 
