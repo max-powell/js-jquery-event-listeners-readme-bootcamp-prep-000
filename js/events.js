@@ -12,6 +12,5 @@ function frameIt() {
 
 $(document).ready(function(){
   getIt()
-  frameIt()
 
 });
