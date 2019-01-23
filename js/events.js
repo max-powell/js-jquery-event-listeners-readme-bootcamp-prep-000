@@ -12,9 +12,8 @@ function frameIt() {
 
 function pressIt() {
   $(document).on('keydown', function(key) {
-    alert(typeof key.which)
-    //if (key.which === 71) {
-      //alert("You have pressed the 'g' key")
+    if (key.which === 71) {
+      alert("You have pressed the 'g' key")
     })
   }
 
@@ -30,4 +29,3 @@ $(document).ready(function(){
   pressIt()
   submitIt()
 });
-  
